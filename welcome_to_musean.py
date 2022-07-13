@@ -4,7 +4,7 @@ print("ຍິນດີຕ້ອນຮັບເຂົ້າສູ່ຫໍພິ�
 print("****************************************************************\n")
 while (1):
     def dcm(n):
-        return ("{:,.2f}".format(n))
+        return ("{:,.0f}".format(n))
     a = int(input("Foreigner press 1 ຄົນລາວກົດ 2 \n => "))
     if a == 1:
         print("If you come with 10 or more , you will get a 20% discount.\n\n")
